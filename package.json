@@ -1,0 +1,33 @@
+{
+  "name": "mmdx",
+  "version": "0.0.1",
+  "description": "Frontend project template for advanced and novice developers, allowing you to avoid many mistakes 🤘",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yunusga/mmdx.git"
+  },
+  "homepage": "https://github.com/yunusga/mmdx",
+  "bugs": {
+    "url": "https://github.com/yunusga/mmdx/issues",
+    "email": "yunusga@yandex.ru"
+  },
+  "bin": {
+    "mmdx": "bin/mmdx.js"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "preferGlobal": true,
+  "scarfSettings": {
+    "enabled": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yunus Gaziev <yunusga@yandex.ru> (https://github.com/yunusga)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "js-yaml": "^4.1.0"
+  }
+}

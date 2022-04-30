@@ -1,0 +1,9 @@
+= yaml =
+pageTitle: Главная
+bodyClasses: home
+layout: !!map
+    header: false
+    footer: false
+    left: false
+    right: false
+= yaml =
